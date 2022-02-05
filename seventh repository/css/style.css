@@ -1,0 +1,452 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+#header {
+  padding: 1.1rem 7rem;
+}
+
+#header .top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 4px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#header .top .left i {
+  color: #004c9c;
+  margin-right: 12px;
+}
+
+#header .top .left a {
+  color: #4a6f8a;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#header .top .left span {
+  color: #4a6f8a;
+  font-size: 14px;
+}
+
+#header .top .right i {
+  margin-left: 12px;
+  background-color: #004c9c;
+  color: #FFFFFF;
+  padding: 5px;
+}
+
+#header .bottom {
+  padding: 20px 0;
+  margin-top: 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 1px solid grey;
+}
+
+#header .bottom .center a {
+  margin-left: 28px;
+}
+
+#header .bottom .right form {
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+#header .bottom .right form input {
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+#header .bottom .right form button {
+  color: #004c9c;
+  background-color: #4a6f8a;
+  border: none;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+#section {
+  background-image: url(https://www.fau.eu/files/2022/01/covid19-colourbox46260923.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+#section .overlay {
+  background-color: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+}
+
+#section .second {
+  padding: 8rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#section .second .left {
+  z-index: 1;
+  width: 53%;
+}
+
+#section .second .left h1 {
+  font-weight: 700;
+  font-size: 46px;
+  color: #fff;
+}
+
+#section .second .left p {
+  font-size: 17px;
+  color: #FFFFFF;
+  margin-top: 24px;
+}
+
+#section .second .left a {
+  margin-top: 45px;
+  color: #FFFFFF;
+  padding: 16px 22px;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+  opacity: 1;
+  border-radius: 3px solid #FFFFFF;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#section .second .left a:hover {
+  background-color: #FFFFFF;
+  color: #212529;
+}
+
+#section .second .right {
+  max-width: 365px;
+}
+
+#section .second .right img {
+  width: 100%;
+  -webkit-animation: z100 50s infinite;
+          animation: z100 50s infinite;
+}
+
+@-webkit-keyframes z100 {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes z100 {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+#stat {
+  background-image: url(https://disin-react.hibootstrap.com/images/map-bg.png);
+  background-position: center;
+  background-size: cover;
+  padding: 0 8rem;
+  width: 80%;
+  margin: auto;
+  position: absolute;
+  z-index: 123;
+  bottom: -324px;
+  left: 120px;
+}
+
+#stat .secondbottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 23px 0px;
+}
+
+#stat .secondbottom .box {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  text-align: center;
+}
+
+#stat .secondbottom .box i {
+  color: #004c9c;
+  font-size: 45px;
+  font-weight: 200;
+}
+
+#stat .secondbottom .box h3 {
+  margin-top: 12px;
+  font-size: 40px;
+  color: #004c9c;
+}
+
+#stat .secondbottom .box p {
+  margin-top: 12px;
+  margin-bottom: 20px;
+}
+
+#third {
+  padding: 5rem 4rem;
+  margin-top: 10rem;
+}
+
+#third .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#third .all .left {
+  margin-top: 45px;
+}
+
+#third .all .left img {
+  width: 456px;
+  height: 443px;
+  background-position: center;
+  background-size: cover;
+  margin-right: 45px;
+  -webkit-animation: corona 5s infinite;
+          animation: corona 5s infinite;
+}
+
+@-webkit-keyframes corona {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+}
+
+@keyframes corona {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+  }
+}
+
+#third .all .right {
+  width: 40%;
+}
+
+#third .all .right h2 {
+  font-size: 38px;
+  color: #232323;
+}
+
+#third .all .right p {
+  font-size: 16px;
+  color: #344C5D;
+  margin-top: 23px;
+}
+
+#third .all .right a {
+  font-size: 15px;
+  color: #fff;
+  background-color: #0046c0;
+  font-weight: 500;
+  padding: 20px 45px;
+  border-radius: 5px;
+  margin-top: 16px;
+  position: relative;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#third .all .right a:hover {
+  background-color: #212529;
+  position: absolute;
+}
+
+#fourth {
+  padding: 5rem 7rem;
+}
+
+#fourth .all .top h1 {
+  color: #232323;
+  font-size: 38px;
+  margin-left: 18px;
+}
+
+#fourth .all .top hr {
+  width: 10%;
+  padding: 1px;
+  background-color: #0046c0;
+  border-radius: 4px;
+  margin: 12px 0;
+  margin-left: 18px;
+}
+
+#fourth .all .bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+#fourth .all .bottom .box {
+  background-color: rgba(231, 231, 231, 0.3);
+  width: 30%;
+  text-align: center;
+  margin: 20px 12px;
+  padding: 20px;
+  position: relative;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: 5px;
+}
+
+#fourth .all .bottom .box i {
+  font-size: 50px;
+  font-weight: 200;
+  color: #004c9c;
+}
+
+#fourth .all .bottom .box h3 {
+  margin-top: 23px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+#fourth .all .bottom .box p {
+  margin-top: 23px;
+}
+
+#fourth .all .bottom .box .overlay {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0046c0;
+  position: absolute;
+  opacity: 0;
+}
+
+#fourth .all .bottom .box .overlay:hover {
+  opacity: 1;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  height: 230px;
+  border-radius: 5px;
+}
+
+#fourth .all .bottom .box .overlay h3 {
+  color: #FFFFFF;
+  font-size: 23px;
+}
+
+#fourth .all .bottom .box .overlay p {
+  color: #FFFFFF;
+  margin-top: 23px;
+}
+
+#fourth .all .bottom .box .overlay a {
+  padding: 12px 15px;
+  background-color: #FFFFFF;
+  color: #0046c0;
+  margin-top: 34px;
+}
+
+#fourth .all .bottom .box .overlay a:hover {
+  background-color: #212529;
+  color: #fff;
+}
+
+#fifth .all {
+  padding: 5rem 4rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#fifth .all .box {
+  -webkit-box-shadow: 7px 7px  7px 7px #c2c4c5;
+          box-shadow: 7px 7px  7px 7px #c2c4c5;
+  margin: 0 16px;
+  background-color: #f8f9fa;
+}
+
+#fifth .all .box .top {
+  position: relative;
+}
+
+#fifth .all .box .top .overlay {
+  position: absolute;
+}
+
+#fifth .all .box .top .overlay:hover a {
+  opacity: 1;
+}
+
+#fifth .all .box .top .overlay a {
+  margin-top: 247px;
+  margin-left: 60px;
+  color: #1800ec;
+  padding: 16px 22px;
+  background-color: #ffffff;
+  opacity: 0;
+  border-radius: 5px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+#fifth .all .box .top .overlay a:hover {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+#fifth .all .box .top img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+#fifth .all .box .bottom {
+  text-align: center;
+  padding: 23px 0;
+}
+/*# sourceMappingURL=style.css.map */
